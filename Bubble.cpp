@@ -1,4 +1,4 @@
-#include <string>
+
 #include <iostream>
 #include <ctime>
 #include <sstream>
@@ -10,8 +10,7 @@ int main()
     game.makeConsole();
     CHAR_INFO *buffscreen = new CHAR_INFO[s_width * s_height];
 
-    int b = 1;
-    int size = s_width - 7;
+    int size = s_width - 6;
     int arr[size];
     int n = 0;
     srand(time(NULL));

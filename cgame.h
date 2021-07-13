@@ -4,8 +4,9 @@
 #include <sstream>
 int s_width = 80;
 int s_height = 35;
-using namespace std;
 
+
+using std::wstring;
 #define redF FOREGROUND_RED | FOREGROUND_INTENSITY
 #define redB BACKGROUND_RED | BACKGROUND_INTENSITY
 #define blueF FOREGROUND_BLUE | FOREGROUND_INTENSITY
